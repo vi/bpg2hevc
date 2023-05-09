@@ -16,7 +16,7 @@ $ MP4Box -add-image sample.hvc:primary -new sample.heic
 The tool was created to process my own files, which are rather uniform, and may fail to handle arbitrary BPG files.
 
 * Only basic BPG files are supported: no alpha, no animations, only one specific colourspace, etc.
-* Most things are just hard coded - only picture width and height are handled carefully. BPG files that were encoded differently (e.g. non-default `-m` or `-b`) may fail to be converted.
+* Most things are just hard coded - only picture width and height are handled carefully. BPG files that were encoded differently (e.g. non-default `-m` or `-b` or not x265 encoder) may fail to be converted.
 
 ## Installation
 
